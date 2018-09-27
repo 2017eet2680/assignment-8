@@ -1,0 +1,11 @@
+\begin{thebibliography}{1}
+
+\bibitem{ref1}
+Python 3.7.1rc1 documentation.
+\newblock \url{https://docs.python.org/3/}.
+
+\bibitem{ref2}
+Git Tutorial.
+\newblock \url{https://www.atlassian.com/git/tutorials}.
+
+\end{thebibliography}

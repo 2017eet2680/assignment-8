@@ -10,6 +10,9 @@ if __name__ == "__main__":
 	m=int(input())
 	n=int(input())
 
+	if(n<2 or n>105 or m<2 or m>105):
+		print("Error, out of range")
+		sys.exit("Error, out of range")
 	# Initialize s and arr of size m*n
 	s=[[0 for j in range(n)] for i in range(m)]
 	arr=[[0 for j in range(n)] for i in range(m)]
