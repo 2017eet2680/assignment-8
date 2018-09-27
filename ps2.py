@@ -2,12 +2,13 @@
 
 ####### write your code here ##########
 
-######## Function to check character in range of characters####
+######## Function to check character in range of characters ####
+import sys
 def char_range(c1, c2):
     for c in range(ord(c1), ord(c2)+1):
         yield chr(c)
 
-####### Function to rotate a list of char by y###############
+####### Function to rotate a list of char by y ###############
 def rotate(l, y):
    if len(l) == 0:
       return l
